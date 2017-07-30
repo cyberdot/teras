@@ -1,0 +1,59 @@
+#cmmnt-main {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	min-width: 85%;
+}
+
+#cmmnt-header {
+	margin-bottom: 10px;
+	text-align: right;	
+}
+
+#cmmnt-input {
+	border: 1px solid #e1e1e1;
+    font-size: inherit;
+    padding: 15px;
+    display: block;
+    width: 95%;
+    resize: none;
+    height: 100px;
+    outline: medium none invert;
+    outline: initial;
+    -webkit-transition: height .2s;
+    transition: height .2s;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+#cmmnt-controls {
+	margin-top: 2em;
+}
+
+#cmmnt-submit {
+	background: #fff;
+    box-shadow: inset 0 0 0 1px #e1e1e1;
+    color: rgba(38,38,38,.5);
+	
+	padding: 12px 24px;
+	
+	border: none;
+    /*outline: medium none invert; */
+    outline: initial;
+    line-height: 1;
+    display: inline-block;
+    font-size: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: border,background,box-shadow .1s;
+    transition: border,background,box-shadow .1s;
+}
